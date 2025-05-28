@@ -6,11 +6,25 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Gentlemen of Trade',
+    default: 'Gentlemen of Trade | Plumbing | Electrical | Gas Services Cape Town',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Cape Town\'s trusted plumbing, electrical, and gas experts since 2017. 24/7 emergency services, fully licensed professionals, and quality workmanship for residential and commercial properties.',
+  keywords: ['plumbing cape town', 'electrician cape town', 'gas services', 'emergency plumber', 'commercial electrical', 'residential plumbing', 'plumbing repairs', 'electrical installations', 'gas installations'],
+  openGraph: {
+    type: 'website',
+    locale: 'en_ZA',
+    url: 'https://gentlemenoftrade.co.za',
+    title: 'Gentlemen of Trade | Plumbing | Electrical | Gas Services Cape Town',
+    description: 'Professional plumbing, electrical, and gas services for Cape Town homes and businesses. 24/7 emergency services available.',
+    siteName: 'Gentlemen of Trade',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gentlemen of Trade | Plumbing | Electrical | Gas Services',
+    description: 'Your trusted Cape Town experts for all plumbing, electrical, and gas needs. 24/7 emergency services available.',
+  }
 }
 
 const inter = Inter({

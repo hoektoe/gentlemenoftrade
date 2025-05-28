@@ -7,35 +7,28 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import electricianImage from '@/images/screenshots/electrician.png'
+import plumbingImage from '@/images/screenshots/plumbing.png'
+import gasImage from '@/images/screenshots/gas.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Emergency Plumbing',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      '24/7 rapid response for all plumbing emergencies including burst pipes, blocked drains, and leaking taps. Our certified plumbers arrive fully equipped to resolve your issue on the first visit.',
+    image: plumbingImage,
   },
   {
-    title: 'Claim expenses',
+    title: 'Electrical Services',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      'Comprehensive electrical solutions from certified electricians for installations, repairs, and maintenance. We handle everything from rewiring to fault finding, ensuring your property remains safe and compliant.',
+    image: electricianImage,
   },
   {
-    title: 'VAT handling',
+    title: 'Gas Services',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Gas Safe registered technicians providing professional installation, maintenance, and repair of gas appliances, heating systems, and pipework. Safety inspections and certifications available.',
+    image: gasImage,
   },
 ]
 
@@ -76,11 +69,12 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Our Services
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Professional plumbing, electrical, gas, and construction solutions
+            for Cape Town homes and businesses. 24/7 emergency services
+            available.
           </p>
         </div>
         <TabGroup
