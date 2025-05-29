@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+import logoE1 from '@/images/certificates/e1.png'
+import logoE2 from '@/images/certificates/e2.png'
+import logoE3 from '@/images/certificates/e3.png'
+import logoE4 from '@/images/certificates/e4.png'
+import logoE5 from '@/images/certificates/e5.png'
+import logoE6 from '@/images/certificates/e6.png'
 
 export function Hero() {
   return (
@@ -52,24 +52,25 @@ export function Hero() {
         </p>
         <ul
           role="list"
-          className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
+          className="flex flex-col items-center justify-center gap-x-0 gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
           {[
             [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
+              { name: 'Institute of Plumbing South Africa', logo: logoE4 },
+              { name: 'Construction Industry Development Board', logo: logoE2 },
+              { name: 'LPG South Africa', logo: logoE3 },
+              { name: 'City of Cape Town', logo: logoE6 },
+              { name: 'Plumbing Industry Registration Board', logo: logoE5 },
+              {
+                name: 'South African Qualification and Certication Committee Gas',
+                logo: logoE1,
+              },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
               <ul
                 role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
+                className="flex flex-row items-center gap-y-8 sm:gap-x-12 sm:gap-y-0"
               >
                 {group.map((company) => (
                   <li key={company.name} className="flex">
