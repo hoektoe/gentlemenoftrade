@@ -7,23 +7,23 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - Gentlemen of Trade',
-    default: 'Gentlemen of Trade | Plumbing | Electrical | Gas Services Cape Town',
+    default: 'Gentlemen of Trade | Plumbing | Gas Services Cape Town',
   },
   description:
-    'Cape Town\'s trusted plumbing, electrical, and gas experts since 2017. 24/7 emergency services, fully licensed professionals, and quality workmanship for residential and commercial properties.',
-  keywords: ['plumbing cape town', 'electrician cape town', 'gas services', 'emergency plumber', 'commercial electrical', 'residential plumbing', 'plumbing repairs', 'electrical installations', 'gas installations'],
+    'Cape Town\'s trusted plumbing and gas experts since 2017. 24/7 emergency services, fully licensed professionals, and quality workmanship for residential and commercial properties.',
+  keywords: ['plumbing cape town', 'gas services', 'emergency plumber', 'residential plumbing', 'plumbing repairs', 'gas installations'],
   openGraph: {
     type: 'website',
     locale: 'en_ZA',
     url: 'https://gentlemenoftrade.co.za',
-    title: 'Gentlemen of Trade | Plumbing | Electrical | Gas Services Cape Town',
-    description: 'Professional plumbing, electrical, and gas services for Cape Town homes and businesses. 24/7 emergency services available.',
+    title: 'Gentlemen of Trade | Plumbing | Gas Services Cape Town',
+    description: 'Professional plumbing and gas services for Cape Town homes and businesses. 24/7 emergency services available.',
     siteName: 'Gentlemen of Trade',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gentlemen of Trade | Plumbing | Electrical | Gas Services',
-    description: 'Your trusted Cape Town experts for all plumbing, electrical, and gas needs. 24/7 emergency services available.',
+    title: 'Gentlemen of Trade | Plumbing | Gas Services',
+    description: 'Your trusted Cape Town experts for all plumbing and gas needs. 24/7 emergency services available.',
   }
 }
 

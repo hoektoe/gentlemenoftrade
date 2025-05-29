@@ -83,7 +83,6 @@ const faq = [
     title: 'Frequently asked questions about Plumbing',
     content: faqPlumber,
   },
-
   {
     title: 'Frequently asked questions about Gas',
     content: faqGas,

@@ -72,8 +72,8 @@ function ContactDetails() {
         Our office
       </h2>
       <p className="mt-6 text-base text-neutral-600">
-        Our offices are located in Cape Town and we provide plumbing, gas and
-        electrical services to clients in the Western Cape.
+        Our offices are located in Cape Town and we provide plumbing and gas
+        services to clients in the Western Cape.
       </p>
 
       <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
@@ -115,9 +115,9 @@ function ContactDetails() {
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Get in touch with Gentlemen of Trade for professional plumbing, electrical, and gas services in Cape Town. Available 24/7 for emergency callouts.',
+    'Get in touch with Gentlemen of Trade for professional plumbing and gas services in Cape Town. Available 24/7 for emergency callouts.',
   openGraph: {
-    title: 'Contact Gentlemen of Trade - Plumbing, Electrical & Gas Services',
+    title: 'Contact Gentlemen of Trade - Plumbing & Gas Services',
     description:
       'Get in touch with Gentlemen of Trade for professional plumbing, electrical, and gas services in Cape Town. Available 24/7 for emergency callouts.',
     images: [
@@ -125,7 +125,7 @@ export const metadata: Metadata = {
         url: 'https://gentlemenoftrade.co.za/contact-og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Contact Gentlemen of Trade - Plumbing, Electrical & Gas Services',
+        alt: 'Contact Gentlemen of Trade - Plumbing & Gas Services',
       },
     ],
     type: 'website',

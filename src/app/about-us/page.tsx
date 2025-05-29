@@ -19,7 +19,7 @@ function HeroAbout() {
     <Container className="mt-16 pb-32">
       <Heading as="h1">Expert service delivered</Heading>
       <Lead className="mt-6 max-w-3xl">
-        Our dedicated team of certified plumbers, electricians, and gas
+        Our dedicated team of certified plumbers and gas
         technicians is committed to providing reliable, professional service for
         all your home and business needs.
       </Lead>
@@ -27,8 +27,8 @@ function HeroAbout() {
         <div className="max-w-lg">
           <h2 className="text-2xl font-medium tracking-tight">Our mission</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-            We are a professional plumbing and electrical company covering all
-            aspects of plumbing, electrical and gas. We are passionate about our
+            We are a professional plumbing company covering all
+            aspects of plumbing and gas. We are passionate about our
             work and our clients. Gentlemen of Trade is a company that always
             keeps updated with the latest trends and laws within the industry to
             ensure customer satisfaction. We have over 24 years of combined
@@ -36,7 +36,7 @@ function HeroAbout() {
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
             Gentlemen of Trade (G.O.T) is serious about being a leading provider
-            of plumbing and electrical services in Cape Town, and as such has
+            of plumbing services in Cape Town, and as such has
             grown and structured the business to accommodate future growth
             within Western Cape. Despite G.O.T's continuing growth, the company
             remains focused on customer service and client care.

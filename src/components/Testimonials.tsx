@@ -84,9 +84,9 @@ export function Testimonials() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Hear what our satisfied clients have to say about our reliable
-            plumbing, gas, and electrical services. We pride ourselves on
-            quality workmanship, prompt service, and competitive pricing across
-            all our trade services.
+            plumbing and gas services. We pride ourselves on quality
+            workmanship, prompt service, and competitive pricing across all our
+            trade services.
           </p>
         </div>
         <ul
