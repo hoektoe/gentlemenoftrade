@@ -2,11 +2,11 @@ import { AnimatedNumber } from '@/components/AnimatedNumber'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
-import { GradientBackground } from '@/components/Gradient'
 import { Header } from '@/components/Header'
 import { Heading, Lead, Subheading } from '@/components/Text'
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import imageJason from '@/images/people/jason.png'
 
 export const metadata: Metadata = {
   title: 'Our Team - Bloemendal Clinic',
@@ -19,27 +19,27 @@ function HeroAbout() {
     <Container className="mt-16 pb-32">
       <Heading as="h1">Expert service delivered</Heading>
       <Lead className="mt-6 max-w-3xl">
-        Our dedicated team of certified plumbers and gas
-        technicians is committed to providing reliable, professional service for
-        all your home and business needs.
+        Our dedicated team of certified plumbers and gas technicians is
+        committed to providing reliable, professional service for all your home
+        and business needs.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
           <h2 className="text-2xl font-medium tracking-tight">Our mission</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-            We are a professional plumbing company covering all
-            aspects of plumbing and gas. We are passionate about our
-            work and our clients. Gentlemen of Trade is a company that always
-            keeps updated with the latest trends and laws within the industry to
-            ensure customer satisfaction. We have over 24 years of combined
-            experience in our fields.
+            We are a professional plumbing company covering all aspects of
+            plumbing and gas. We are passionate about our work and our clients.
+            Gentlemen of Trade is a company that always keeps updated with the
+            latest trends and laws within the industry to ensure customer
+            satisfaction. We have over 24 years of combined experience in our
+            fields.
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
             Gentlemen of Trade (G.O.T) is serious about being a leading provider
-            of plumbing services in Cape Town, and as such has
-            grown and structured the business to accommodate future growth
-            within Western Cape. Despite G.O.T's continuing growth, the company
-            remains focused on customer service and client care.
+            of plumbing services in Cape Town, and as such has grown and
+            structured the business to accommodate future growth within Western
+            Cape. Despite G.O.T's continuing growth, the company remains focused
+            on customer service and client care.
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
             G.O.T has strong relationships with some of Cape Town's best
@@ -55,7 +55,7 @@ function HeroAbout() {
             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
               <Image
                 alt=""
-                src="/bloemendal/untitled-261-min.jpg"
+                src={imageJason}
                 width={292}
                 height={292}
                 className="block size-full object-cover"
@@ -64,7 +64,7 @@ function HeroAbout() {
             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-32">
               <Image
                 alt=""
-                src="/bloemendal/untitled-258-min.jpg"
+                src={imageJason}
                 width={292}
                 height={292}
                 className="block size-full object-cover"
@@ -73,7 +73,7 @@ function HeroAbout() {
             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
               <Image
                 alt=""
-                src="/bloemendal/untitled-131-min.jpg"
+                src={imageJason}
                 width={292}
                 height={292}
                 className="block size-full object-cover"
@@ -82,7 +82,7 @@ function HeroAbout() {
             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-32">
               <Image
                 alt=""
-                src="/bloemendal/untitled-256-min.jpg"
+                src={imageJason}
                 width={292}
                 height={292}
                 className="block size-full object-cover"

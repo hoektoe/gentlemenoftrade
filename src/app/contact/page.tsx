@@ -122,7 +122,7 @@ export const metadata: Metadata = {
       'Get in touch with Gentlemen of Trade for professional plumbing, electrical, and gas services in Cape Town. Available 24/7 for emergency callouts.',
     images: [
       {
-        url: 'https://gentlemenoftrade.co.za/contact-og-image.jpg',
+        url: 'https://gentlemenoftrade.co.za/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Contact Gentlemen of Trade - Plumbing & Gas Services',
