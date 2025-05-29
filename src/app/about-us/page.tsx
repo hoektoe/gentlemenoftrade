@@ -38,11 +38,11 @@ function HeroAbout() {
             Gentlemen of Trade (G.O.T) is serious about being a leading provider
             of plumbing services in Cape Town, and as such has grown and
             structured the business to accommodate future growth within Western
-            Cape. Despite G.O.T's continuing growth, the company remains focused
+            Cape. Despite G.O.T&apos;s continuing growth, the company remains focused
             on customer service and client care.
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
-            G.O.T has strong relationships with some of Cape Town's best
+            G.O.T has strong relationships with some of Cape Town&apos;s best
             building contractors, and is always up to date with the latest
             trends and materials available. The company offers a complete
             service – from design to installation – and if required, management
