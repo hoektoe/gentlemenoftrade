@@ -21,14 +21,15 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
+            Get a quote today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your books. Buy our software so you can
-            feel like you’re doing something productive.
+            Need professional plumbing or gas services? Get a free quote for
+            your home or business project and experience quality workmanship
+            with certified professionals.
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
+          <Button href="/contact-us" color="white" className="mt-10">
+            Get a quote
           </Button>
         </div>
       </Container>

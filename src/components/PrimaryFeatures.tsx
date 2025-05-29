@@ -7,7 +7,6 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import electricianImage from '@/images/screenshots/electrician.png'
 import plumbingImage from '@/images/screenshots/plumbing.png'
 import gasImage from '@/images/screenshots/gas.png'
 
@@ -18,12 +17,7 @@ const features = [
       '24/7 rapid response for all plumbing emergencies including burst pipes, blocked drains, and leaking taps. Our certified plumbers arrive fully equipped to resolve your issue on the first visit.',
     image: plumbingImage,
   },
-  {
-    title: 'Electrical Services',
-    description:
-      'Comprehensive electrical solutions from certified electricians for installations, repairs, and maintenance. We handle everything from rewiring to fault finding, ensuring your property remains safe and compliant.',
-    image: electricianImage,
-  },
+
   {
     title: 'Gas Services',
     description:
@@ -72,7 +66,7 @@ export function PrimaryFeatures() {
             Our Services
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Professional plumbing, electrical, gas, and construction solutions
+            Professional plumbing, gas, and construction solutions
             for Cape Town homes and businesses. 24/7 emergency services
             available.
           </p>

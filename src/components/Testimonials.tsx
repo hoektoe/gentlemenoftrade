@@ -1,70 +1,62 @@
-import Image from 'next/image'
-
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
+import Image from 'next/image'
+import googleReviewLogo from '@/images/logos/google-review.png'
 
 const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Very professional and quick service they are my number on plumber to go to.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
-        image: avatarImage1,
+        name: 'Jan Feyen',
+        role: 'residential',
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'What a great bunch of guys. My loo blocked and Ross came out quickly. It wasn’t an easy thing to fix, but he got it sorted with some effort, and was good company while doing so. Left the place really clean too. I recommend this growing company.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
-      },
-    },
-  ],
-  [
-    {
-      content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
-      author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
-        image: avatarImage5,
-      },
-    },
-    {
-      content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
-      author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
-        image: avatarImage2,
+        name: 'Michelle Macnab',
+        role: 'residential',
       },
     },
   ],
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'Friendly, help and professional. thank you Kim, the guys did a great job and clean too.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
-        image: avatarImage3,
+        name: 'Kamteni Monica',
+        role: 'residential',
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        "Amazing service from theses guys. They did 2 lots of COC's for my properties, which was expertly carried out and cost was great. Once I moved they did electrical and plumbing work at my new property and all first class. Not only is their work excellent but each person has been a pleasure to deal with, being clean, prompt and courteous. Always my go to place.",
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Marlene B',
+        role: 'residential',
+      },
+    },
+  ],
+  [
+    {
+      content: `I would also like to take this opportunity to say how impressed we were with the team's professionalism and conduct.
+
+Ross and his team are an asset to your company and did a great job, particularly cleaning up afterwards. They had good attention to detail and communicated well!
+
+Well done, and again, thanks for the good service. I would highly recommend your services.`,
+      author: {
+        name: 'Mark Thomas',
+        role: 'residential',
+      },
+    },
+    {
+      content:
+        'Jason and his team are truly Gentlemen in their trade. They are trustworthy and highly skilled. I feel safe while they work in my space and I know that they give me the best quality products at a fair and competitive price.',
+      author: {
+        name: 'Hettie Wainwright',
+        role: 'residential',
       },
     },
   ],
@@ -88,12 +80,13 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Loved by our customers
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Hear what our satisfied clients have to say about our reliable
+            plumbing, gas, and electrical services. We pride ourselves on
+            quality workmanship, prompt service, and competitive pricing across
+            all our trade services.
           </p>
         </div>
         <ul
@@ -124,7 +117,7 @@ export function Testimonials() {
                         <div className="overflow-hidden rounded-full bg-slate-50">
                           <Image
                             className="h-14 w-14 object-cover"
-                            src={testimonial.author.image}
+                            src={googleReviewLogo}
                             alt=""
                             width={56}
                             height={56}
